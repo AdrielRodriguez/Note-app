@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Env files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency locks (si no querés subir alguno)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Output de pruebas (si usás testing)
+coverage/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Por si usás Linux/macOS
+*.swp
